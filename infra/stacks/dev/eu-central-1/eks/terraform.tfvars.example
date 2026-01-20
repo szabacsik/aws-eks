@@ -1,0 +1,10 @@
+# Copy to terraform.tfvars and adjust values as needed.
+project_name = "aws-eks-learning"
+environment  = "dev"
+aws_region   = "eu-central-1"
+
+# Restrict public API access to your IP (example below).
+cluster_endpoint_public_access_cidrs = ["203.0.113.10/32"]
+
+# Optional tags
+owner = "your-name"
